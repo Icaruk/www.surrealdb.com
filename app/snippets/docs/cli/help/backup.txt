@@ -11,3 +11,7 @@ OPTIONS:
     -h, --help           Print help information
     -p, --pass <pass>    Database authentication password to use when connecting [default: root]
     -u, --user <user>    Database authentication username to use when connecting [default: root]
+
+EXAMPLES:
+	surreal backup http://localhost:8123 your_backup_name.db --user root --pass root
+	surreal backup http://localhost:8123 http://localhost:9000 --user root --pass root
